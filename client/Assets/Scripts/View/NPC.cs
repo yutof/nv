@@ -2,7 +2,7 @@
 using UnityEngine;
 using Uween;
 using UrFairy;
-namespace Navigator
+namespace Navigator.View
 {
     public class NPC : MonoBehaviour {
 
@@ -22,8 +22,8 @@ namespace Navigator
 
         void MoveNPCRecursively(GameObject go)
         {
-            Move(go, 0f, 1f)
-                .Then(() => Move(go, 1f , 1f)
+            Move(go, 0f, -1f)
+                .Then(() => Move(go, 1f , -1f)
                 .Then(() => Move(go, 1f , 0f)
                 .Then(() => Move(go, 0f , 0f)
                 .Then(() => MoveNPCRecursively(go)))));

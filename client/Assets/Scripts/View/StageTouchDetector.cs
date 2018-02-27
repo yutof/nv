@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-namespace Navigator
+namespace Navigator.View
 {
     public class StageTouchDetector : MonoBehaviour
     {
-
         [SerializeField] private Canvas Canvas;
+        private Action<int, int> OnCellClicked;
+        public void SetOnCellClicked(Action<int, int> a) => OnCellClicked = a;
 
         private void Update()
         {
@@ -28,8 +30,7 @@ namespace Navigator
         {
             var cellX = Mathf.FloorToInt(xPos / (Config.GridWidth));
             var cellY = Mathf.FloorToInt(yPos  / (Config.GridWidth));
-            Debug.Log($"clicked on X:{xPos}\nY:{yPos}");
-            Debug.Log($"{cellX}:{cellY}");
+            OnCellClicked?.Invoke(cellX,cellY);
         }
 
     }

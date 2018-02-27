@@ -13,19 +13,19 @@ obj
 bin
 
 # User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+client/.idea/**/workspace.xml
+client/.idea/**/tasks.xml
+client/.idea/dictionaries
 
 # Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/contentModel.xml
+client/.idea/**/dataSources/
+client/.idea/**/dataSources.ids
+client/.idea/**/dataSources.xml
+client/.idea/**/dataSources.local.xml
+client/.idea/**/sqlDataSources.xml
+client/.idea/**/dynamic.xml
+client/.idea/**/uiDesigner.xml
+client/.idea/**/contentModel.xml
 
 # Gradle:
 .idea/**/gradle.xml

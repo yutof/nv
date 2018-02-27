@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UrFairy;
 
-namespace Navigator
+namespace Navigator.View
 {
     public class Stage : MonoBehaviour
     {
@@ -28,7 +28,6 @@ namespace Navigator
             }
         }
 
-
         private GameObject CreateGrid(Vector2 size)
         {
             var g = GameObject.Instantiate(Grid);
@@ -36,8 +35,6 @@ namespace Navigator
             g.transform.Identity();
             g.GetComponent<RectTransform>().sizeDelta = size;
             return g;
-
         }
-
     }
 }

@@ -83,10 +83,23 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Config.cs" t="Include" />
-          <e p="NPC.cs" t="Include" />
-          <e p="Stage.cs" t="Include" />
-          <e p="StageTouchDetector.cs" t="Include" />
+          <e p="Constants" t="Include">
+            <e p="Config.cs" t="Include" />
+          </e>
+          <e p="Model" t="Include">
+            <e p="Data" t="Include">
+              <e p="CellPosition.cs" t="Include" />
+            </e>
+            <e p="StageController.cs" t="Include" />
+          </e>
+          <e p="View" t="Include">
+            <e p="NPC.cs" t="Include" />
+            <e p="NPCParent.cs" t="Include" />
+            <e p="Obstacle.cs" t="Include" />
+            <e p="ObstacleGenerator.cs" t="Include" />
+            <e p="Stage.cs" t="Include" />
+            <e p="StageTouchDetector.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="client.sln" t="IncludeFlat" />
