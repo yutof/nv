@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UrFairy" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SpacebarHandTool.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="ColorExtensions.cs" t="Include" />
+              <e p="EnumeratorExtensions.cs" t="Include" />
+              <e p="ListExtensions.cs" t="Include" />
+              <e p="MaterialExtensions.cs" t="Include" />
+              <e p="MonoBehaviourExtensions.cs" t="Include" />
+              <e p="ObjectExtensions.cs" t="Include" />
+              <e p="RandomExtensions.cs" t="Include" />
+              <e p="RendererExtensions.cs" t="Include" />
+              <e p="TransformExtensions.cs" t="Include" />
+              <e p="VectorExtensions.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Uween" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PreviewEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Callback.cs" t="Include" />
+              <e p="Easings.cs" t="Include" />
+              <e p="FluentSyntax.cs" t="Include" />
+              <e p="Preview.cs" t="Include" />
+              <e p="PreviewSetting.cs" t="Include" />
+              <e p="Tween.cs" t="Include" />
+              <e p="TweenA.cs" t="Include" />
+              <e p="TweenC.cs" t="Include" />
+              <e p="TweenCA.cs" t="Include" />
+              <e p="TweenFillAmount.cs" t="Include" />
+              <e p="TweenNull.cs" t="Include" />
+              <e p="TweenP.cs" t="Include" />
+              <e p="TweenP3.cs" t="Include" />
+              <e p="TweenR.cs" t="Include" />
+              <e p="TweenR3.cs" t="Include" />
+              <e p="TweenRX.cs" t="Include" />
+              <e p="TweenRXY.cs" t="Include" />
+              <e p="TweenRXYZ.cs" t="Include" />
+              <e p="TweenRXZ.cs" t="Include" />
+              <e p="TweenRY.cs" t="Include" />
+              <e p="TweenRYZ.cs" t="Include" />
+              <e p="TweenRZ.cs" t="Include" />
+              <e p="TweenS.cs" t="Include" />
+              <e p="TweenS3.cs" t="Include" />
+              <e p="TweenSX.cs" t="Include" />
+              <e p="TweenSXY.cs" t="Include" />
+              <e p="TweenSXYZ.cs" t="Include" />
+              <e p="TweenSXZ.cs" t="Include" />
+              <e p="TweenSY.cs" t="Include" />
+              <e p="TweenSYZ.cs" t="Include" />
+              <e p="TweenSZ.cs" t="Include" />
+              <e p="TweenVec1.cs" t="Include" />
+              <e p="TweenVec1T.cs" t="Include" />
+              <e p="TweenVec2.cs" t="Include" />
+              <e p="TweenVec2T.cs" t="Include" />
+              <e p="TweenVec3.cs" t="Include" />
+              <e p="TweenVec3T.cs" t="Include" />
+              <e p="TweenVec4.cs" t="Include" />
+              <e p="TweenX.cs" t="Include" />
+              <e p="TweenXY.cs" t="Include" />
+              <e p="TweenXYZ.cs" t="Include" />
+              <e p="TweenXZ.cs" t="Include" />
+              <e p="TweenY.cs" t="Include" />
+              <e p="TweenYZ.cs" t="Include" />
+              <e p="TweenZ.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Config.cs" t="Include" />
+          <e p="NPC.cs" t="Include" />
+          <e p="Stage.cs" t="Include" />
+          <e p="StageTouchDetector.cs" t="Include" />
+        </e>
+      </e>
+      <e p="client.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_client.271969641.00" t="ExcludeRecursive" />
+  </component>
+</project>
